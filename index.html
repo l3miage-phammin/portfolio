@@ -6,7 +6,7 @@
 
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--boxicons-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <title>PHAM Minh Tri</title>
     </head>
@@ -19,7 +19,9 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">A propos de moi</a></li>
                         <li class="nav__item"><a href="#study" class="nav__link">Formations</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Expériences</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                        <li class="nav__item"><a href="#other" class="nav__link">Autres</a></li>
                         <li class="nav__item"><a href="#photo" class="nav__link">Photos</a></li>
                     </ul>
                 </div>
@@ -47,7 +49,7 @@
 
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/minhtripham9" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.github.com/l3miage-phammin/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/minhtripham9" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
             <!--info-->
@@ -60,29 +62,115 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">PHAM Minh Tri</h2>
-                        <p class="about__text">Étudiant motivé en informatique, je bénéficie d'une expérience pratique dans la réalisation de mini-projets acquis au cours de ma formation. Doté d'une grande capacité d'adaptation, je sais me montrer proactive et digne de confiance dans la réalisation de mes missions.</p>           
+                        <h2 class="about__subtitle">PHAM Minh Tri
+                            <br> Analyste Développeur chez BPCE Solutions Informatiques
+                        </h2>
+                        <p class="about__text">Étudiant à l'EPSI et bientôt à GEM, je bénéficie d'une expérience pratique dans la 
+                            réalisation de projets acquis au cours de ma formation et de mon alternance chez BPCE.
+                            Doté d'une grande capacité d'adaptation, je sais me montrer proactive et digne de confiance 
+                            dans la réalisation de mes missions.</p>           
                     </div>                                   
                 </div>
             </section>
 
             <!--Formations-->
             <section class="study section " id="study">
-                <h2 class="section-title">Formations et expériences professionnelles</h2>
+                <h2 class="section-title">Formations</h2>
 
                 <div class="study__container bd-grid">
-                    <h3 class= "study__subtitle">Université Grenoble Alpes : Licence MIAGE </h3>
-                    <p class="study__subtitle">2019-en cours</p>
                     <div class="study__img">
                         <img src="assets/img/logouga1.jpg" alt="">
                     </div>
-
-                    <h3 class="study__subtitle">Taster : Employé polyvalent </h3>
-                    <p class="study__subtitle">2021-mars 2022</p>
+                    <h3 class= "study__subtitle">Université Grenoble Alpes :
+                        <br>Licence Méthodes Informatiques Appliqués 
+                        <br>à la Gestion des Entreprises 
+                    </h3>
+                    
+                    <p class="study__subtitle">Management des Systèmes d'Information
+                        <br> Architecture Système Réseaux
+                        <br> Recherche opérationnelle
+                        <br> Gestion comptable et RH
+                        <br> Formalisation des données - XML Technologies
+                        <br> Validation d'algorithmes et modèles statistiques 
+                        <br> Composants logiciels et IHM 
+                        <br> Programmation orientée objet
+                        <br> Méthodologie et projet informatique
+                        <br> Bases de données et systèmes d'information
+                        <br> Programmation déclarative
+                        <br> Projet professionnel et communication
+                    </p>
+                    <hr>
+                </div>
+                <div class="study__container bd-grid">
                     <div class="study__img">
-                        <img src="assets/img/logotaster.png" alt="">              
+                        <img src="assets/img/logoepsi.png" alt="">
+                    </div>
+                    <h3 class= "study__subtitle"> Ecole privée des Sciences Informatiques<br>
+                        Bachelor Concepteur Développeur Applications </h3>
+                    
+                    <p class="study__subtitle"> Programmation Java
+                        <br> Programmation C# (.NET)
+                        <br> Framework JavaScript : Node.js
+                        <br> Programmation Python Web
+                        <br> Ethique et communication professionnelle
+                        <br> Programmation mobile : Swift
+                        <br> Base de données relationnelles, Spring, SQL
+                        <br> NoSQL
+                        <br> Architecture N-tiers, Services Web
+                        <br> DevOps : Docker, Kubernetes
+                        <br> Gestion de projets Informatiques
+                    </p>
                 </div>
             </section>
+            <!--Formations-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Expériences professionnelles</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/logobpce.png" alt="">
+                    </div>
+                    <h3 class= "work__subtitle"> BPCE Solutions Informatiques <br>
+                        Analyste Concepteur/Développeur <br>
+                        alternance (09/2022 - actuel) </h3>
+                    
+                    <p class="work__subtitle">Conception technique et maquettage des applications du produit Signature Électronique
+                        <br>Développement des évolutions des applications du produit (AngularJS/9, Java)
+                        <br>Rédaction des tests unitaires (Jest, Sonar)
+                        <br>Étude et analyse des incidents et des induits
+                        <br>Préparation des livrables (Jenkins, Git, Bitbucket)
+                        <br>Rédaction des documentations techniques
+                        <br>Participation aux cérémonies agiles (Scrum)
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="work__container bd-grid">
+                    <h3 class= "work__subtitle"> BPCE Solutions Informatiques <br>
+                        Développeur fullstack <br> stage (05-07/2022) </h3>
+                        <p class="work__subtitle"> Étude et analyse des ressources et des WebServices du backend (Java, REST, SOAP, ElasticSearch)
+                            <br>Amélioration du système de gestions d'erreurs
+                            <br>Édition de l’IHM de l’application (HTML/CSS,AngularJS, Angular)
+                            <br>Rédaction de documentations techniques
+                            <br>Participation aux cérémonies agiles (Scrum)
+                        </p>
+                        <hr>
+                        <hr>
+                </div>
+                
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/taster.jpg" alt="">              
+                    </div>    
+                    <h3 class="work__subtitle">Taster : Employé polyvalent
+                        <br>3 mois (01-04/2022)
+                    </h3>
+                    <p class="work__subtitle">Assemblage et préparation des produits en suivant les règles d'hygiène et de sécurité
+                        <br>Emballage des commandes
+                        <br>Nettoyage des locaux et des équipements
+                    </p>
+                    
+                </div>  
 
             <!--skills-->
             <section class="skills section" id="skills">
@@ -91,49 +179,50 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Compétences professionnelles </h2>
-                        <p class="skills__text"> Développés en cours de formation avec des mini-projets universitaires et des projets personnels.</p>
+                        <p class="skills__text"> Développés dans des projets personnels et dans des contextes professionnels</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
+                                <span class="skills__name">HTML/CSS</span>
                             </div>
                             <div class="skills__bar skills__html">
 
                             </div>
                             <div>
-                                <span class="skills__percentage"></span>70%</span>
+                                <span class="skills__percentage"></span>80%</span>
                             </div>
                         </div>
+                        
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
+                                <i class='bx bxl-typescript skills__icon'></i>
+                                <span class="skills__name">TypeScript</span>
                             </div>
-                            <div class="skills__bar skills__css">
+                            <div class="skills__bar skills__ts">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JavaScript</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
+                                <span class="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-angular skills__icon'></i>
-                                <span class="skills__name">Frameworks, libraries : Angular, React.js</span>
+                                <span class="skills__name">Angular JS/2+</span>
                             </div>
                             <div class="skills__bar skills__framework">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon' ></i>
+                                <span class="skills__name">React, React Native</span>
+                            </div>
+                            <div class="skills__bar skills__react">
                                 
                             </div>
                             <div>
@@ -142,14 +231,51 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-visual-studio skills__icon' ></i>
-                                <span class="skills__name">Autres languages de développement : C, Java, Python</span>
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C/C++</span>
                             </div>
-                            <div class="skills__bar skills__dev">
+                            <div class="skills__bar skills__c">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">Java (+Spring)</span>
+                            </div>
+                            <div class="skills__bar skills__java">
                                 
                             </div>
                             <div>
                                 <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name"> Base de données SQL/NoSQL (MySQL, postgreSQL, Microsoft SQL Server, MongoDB)</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-wrench skills__icon'></i>
+                                <span class="skills__name"> DevOps (Jest, Docker, Jenkins, Kubernetes, Sonar, ALM) </span>
+                            </div>
+                            <div class="skills__bar skills__devops">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
                             </div>
                         </div>
                     </div>
@@ -157,6 +283,41 @@
                     <div>              
                         <img src="assets/img/work3.jfif" alt="" class="skills__img">
                     </div>
+                </div>
+            </section>
+
+            <section class="other section " id="other">
+                <h2 class="section-title">Intérêts et vie associative</h2>
+
+                <div class="about__container bd-grid">
+                    <div>
+                        <h2 class="about__subtitle">Animateur camps de vacances</h2>
+                        <p class="about__text">
+                            GPA Camps à Danang et Hanoi, Vietnam
+                        </p>       
+                    </div>           
+                    <div>
+                        <h2 class="about__subtitle">Trésorier</h2>
+                        <p class="about__text">
+                            Association des étudiants vietnamiens à Grenoble, France
+                        </p>       
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">Langues</h2>
+                        <p class="about__text">Vietnamien : langue maternelle
+                            <br>Anglais : bilingue
+                            <br>Français : bilingue
+                            <br>Espagnol : notions
+                        </p>       
+                    </div>              
+                    <div>
+                        <h2 class="about__subtitle">Autres </h2>
+                        <p class="about__text">Musique : piano, guitare, batterie
+                            <br>Sport : football, tennis, musculation
+                            <br>Voyage
+                            <br>Finance              
+                        </p>       
+                    </div>                     
                 </div>
             </section>
 
